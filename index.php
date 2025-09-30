@@ -18,6 +18,7 @@
 <html lang="es">
 <head>
     <?php require_once "./app/views/inc/head.php"; ?>
+    <link rel="shortcut icon" href="home.png" type="image/x-icon">
 </head>
 <body>
     <?php
@@ -45,11 +46,13 @@
         <section class="full-width pageContent scroll" id="pageContent">
             <?php
                 require_once "./app/views/inc/navbar.php";
-
-                require_once $vista;
-
-                require_once "./app/views/inc/footer.php";
+                // require_once "./app/views/inc/footer.php";
             ?>
+            <section style="padding: 15px;">
+                <?php
+                    require_once $vista;
+                ?>
+            </section>
         </section>
     </main>
     <?php
