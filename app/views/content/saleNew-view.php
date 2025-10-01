@@ -154,7 +154,7 @@
             </div>
         </div>
 
-        <div class="column is-one-quarter">
+        <div class="column is-one-quarter" style="width: 28%;">
             <h2 class="title has-text-centered">Datos de la venta</h2>
             <hr>
 
